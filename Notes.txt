@@ -1,0 +1,24 @@
+Video -  https://youtu.be/ed8SzALpx1Q
+github - https://github.com/iamshaunjp/graphql-playlist/tree/lesson-36
+
+- Appolo is used by client application (React/Angular) to make graphQL query (Request) to graphQL server.
+- Appolo can be considered as a GraphQL client.
+- GraphQL responds (Response) to graphQL query and send data back to Appolo which passes it over to React/Angular components.
+- To query a book using graphiQL
+    {
+        book(id: "5d3fe88d1c9d440000adff8c") {
+            name, genre
+        }
+    }
+
+===== Run Application =====
+- Start GraphQL server
+    > cd /Users/admin/Documents/workspace/graphQL/server
+    > nodemon app
+- Start react / apollo client
+    > cd /Users/admin/Documents/workspace/graphQL/client
+    > npm start
+
+- MongoDB cloud
+    https://cloud.mongodb.com/
+
